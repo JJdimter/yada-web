@@ -52,7 +52,7 @@ main td{
 }
 main img{
     width:100%;
-    border:solid1px #ddd;
+    border:solid 1px #ddd;
     border-radius: 10px;
 }
 footer{
