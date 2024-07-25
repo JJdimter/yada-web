@@ -1,14 +1,55 @@
 body{
-    margin: 0;
+    font-family: 'Courier New', Courier, monospace
 }
-.contenedor{
-    display: flex;
-    flex-wrap: wrap;
+main{
+    width:80%;
+    margin:auto;
 }
-.box{
-    width: 25%;
+main td{
+    width:50%;
+    padding:2em;
+}
+main img{
+    width:30%;
+    border:solid 1px #ddd;
+    border-radius: 10px;
+}
+header{
+    height:10em;
+    padding:5em;
+    font-size:2em;
+    background-image:url("/assets/img/DSC01182.jpg");
+    background-size:cover;background-position:center;
+    border-radius: 30px 30px 0 0;
 }
 
-.box img{
-    width: 100%;
+header h1{
+    margin: 0px;
+    font-weight: 500;
+    color: antiquewhite;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+nav{
+    margin: 0px;
+}
+.menu-navegacion{
+    background-color:rgb(185, 41, 99);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+}
+.menu-navegacion li{
+    display: inline-block;
+}
+.menu-navegacion a{
+    color:#ddd;
+    text-decoration: none;
+}
+.menu-navegacion a:hover{
+    color: gold;
 }
