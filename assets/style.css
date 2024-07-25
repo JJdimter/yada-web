@@ -41,20 +41,6 @@ nav{
 .menu-navegacion a:hover{
     color: gold;
 }
-
-main{
-    width:80%;
-    margin:auto;
-}
-main td{
-    width:50%;
-    padding:2em;
-}
-main img{
-    width:30%;
-    border:solid 1px #ddd;
-    border-radius: 10px;
-}
 footer{
     height:3em;
     line-height:3em;
