@@ -1,2 +1,2 @@
 # yada-web
- catálogo web
+ catálogo web en proceso
